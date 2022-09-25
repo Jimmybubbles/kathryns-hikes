@@ -1,9 +1,18 @@
+/* visibility:hidden; preserves the vertical and horizontal spacing of the hidden element */
+/* display:none; does NOT preserve the spacing, the element will expand when set to :block */
 
+.hide {
+    display: hide;
+}
+
+.show {
+    display: block;
+}
 
 #map { 
     height: 500px;
     width: 400px;
-    margin:5rem auto
+    margin:2rem auto
   }
 
 #mapbeach{
@@ -11,4 +20,15 @@
     width: 400px;
     margin:5rem auto
 }
-  
+
+.generateCard{
+    height: 50px;
+    width: 50px;
+    margin:5rem auto
+}
+
+.img{
+    width: 18rem;
+}
+
+
